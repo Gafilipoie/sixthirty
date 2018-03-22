@@ -1780,9 +1780,6 @@ window.require.define({"modules/homepage-skin": function(exports, require, modul
           return elem.pause();
         }
       });
-      if ($window.width() > 768) {
-        return $('.list-porject').css('height', $window.width() / 1.84);
-      }
     };
 
     HomepageSkin.prototype._openConfProject = function(ev) {

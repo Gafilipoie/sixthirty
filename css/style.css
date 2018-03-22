@@ -696,7 +696,10 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .confidential-box .confidential-project p{margin:0;margin-bottom:21px;font-size:18px;line-height:44px;font-family:'Conv_Type Dynamic - Larsseit Bold',sans-serif}
 .confidential-box .confidential-project h1{font-size:36px;font-family:'Conv_Larsseit-Light',sans-serif;line-height:44px}
 .confidential-project .third-section,.public-project .third-section{width:0;padding-top:0}
-.confidential-project .confidential-content,.public-project .confidential-content{padding-left:97px;padding-bottom:73px}
+.confidential-project .confidential-content,.public-project .confidential-content{
+	padding-left:58px;
+	padding-bottom:73px
+}
 .confidential-project .close-svg,.public-project .close-svg{width:100%;height:100%;pointer-events:none}
 .confidential-hide-element{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);pointer-events:none;}
 .confidential-hide-element .single-project--confidential .project-input{background-color:rgba(0,0,0,0.05);color:#fff;font-size:18px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif;text-decoration:underline;border:none;letter-spacing:0;padding-bottom:14px;}
@@ -716,7 +719,10 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .see-more a:after{background:#350b76;content:"";position:absolute;bottom:0;left:0;width:0;height:2px;-webkit-transition:width 250ms ease;-moz-transition:width 250ms ease;-o-transition:width 250ms ease;-ms-transition:width 250ms ease;transition:width 250ms ease}
 .see-more a:hover{color:#350b76;}
 .see-more a:hover:after{width:100%}
-#myList .list-porject{display:none}
+#myList .list-porject{
+	display:none;
+	height: 65vh;
+}
 .hompage-about{padding:94px;}
 .hompage-about .content-maxwidth{max-width:100%}
 .hompage-about-overlay{position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-o-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);z-index:999999999;}
@@ -794,7 +800,11 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 	font-size:20px;
 	line-height:34px
 }
-.confidential-box .confidential-project .confidential-content,.confidential-box .public-project .confidential-content{width:50%;padding-left:77px;padding-top:265px;padding-bottom:77px;}
+.confidential-box .confidential-project .confidential-content,.confidential-box .public-project .confidential-content{
+	width:50%;
+	padding-top:265px;
+	padding-bottom:77px;
+}
 .confidential-box .confidential-project .confidential-content p,.confidential-box .public-project .confidential-content p{margin-bottom:19px}
 .confidential-box .confidential-project .title1{width:50%}
 .confidential-box .confidential-project p{margin-bottom:19px}
@@ -811,7 +821,9 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1{padding-left:66px;padding-bottom:83px;}
 .title1 .confidential-project-close-button{top:79px}
 .confidential-box .video{display:none}
-.confidential-box .confidential-project .confidential-content,.confidential-box .public-project .confidential-content{padding-left:66px;padding-bottom:44px}
+.confidential-box .confidential-project .confidential-content,.confidential-box .public-project .confidential-content{
+	padding-bottom:44px
+}
 .confidential-box .confidential-project,.confidential-box .public-project{opacity:1;-ms-filter:none;filter:none;}
 .confidential-box .confidential-project .confidential-content,.confidential-box .public-project .confidential-content{opacity:1;-ms-filter:none;filter:none}
 .title1 .confidential-project-close-button{top:20px;right:45px}
@@ -854,7 +866,6 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .see-moree{margin-top:70px}
 .hompage-about{padding:26px;}
 .hompage-about .content-maxwidth{width:100%}
-#myList .list-porject{height:100vh}
 }@media all and (max-width: 563px){.third-section{width:41%}
 .footer-wrapper{-webkit-box-lines:multiple;-moz-box-lines:multiple;-o-box-lines:multiple;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .footer-content{width:53%}
