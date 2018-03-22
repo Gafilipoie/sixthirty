@@ -1730,6 +1730,9 @@ window.require.define({"modules/homepage-skin": function(exports, require, modul
           return checkPassword($(this).parent());
         }
       });
+	  $('.projects-overlay').on('click', function() {
+        return $('.projects-overlay-wrapper, .projects-overlay-image').addClass('active');
+      });
       $('.form-error-message').click(function() {
         $(this).parent().find('.form-error-message').hide();
         return $(this).parent().find('.project-input').show();

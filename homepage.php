@@ -156,7 +156,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
 
     <!-- See more -->
     <div class="see-more">
-      <a id="load-more">See more work</a>
+      <a class="projects-overlay">See more work</a>
     </div>
 
     <!-- News Sliders -->
