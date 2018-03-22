@@ -906,9 +906,9 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .marR{margin-right:0}
 @media all and (max-width: 1199px){.container-maxwidth{max-width:992px;}
 .container-maxwidth.container-maxwidth--home{max-width:100%}
-.content-maxwidth{max-width:840px}
+.content-maxwidth{max-width:859px}
 }@media all and (max-width: 991px){.container-maxwidth{max-width:768px}
-.content-maxwidth{max-width:646px}
+.content-maxwidth{max-width:637px}
 }@media all and (max-width: 767px){.container-maxwidth{max-width:100%}
 .content-maxwidth{max-width:262px}
 .col-1{width:9.875%}
