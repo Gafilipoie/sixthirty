@@ -645,9 +645,28 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 #Fill-5,#Fill-7{-webkit-animation:blink 1s steps(2,start) infinite;-moz-animation:blink 1s steps(2,start) infinite;-o-animation:blink 1s steps(2,start) infinite;-ms-animation:blink 1s steps(2,start) infinite;animation:blink 1s steps(2,start) infinite}
 .video-img{display:none !important;position:relative;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center;height:100%;width:100%;}
 .video-img svg{position:absolute;top:50%;left:50%;width:100px;height:100px;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
-.two-section{text-align:center;margin:0 auto;max-width:596px;min-width:596px;-webkit-box-pack:justify;-moz-box-pack:justify;-o-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;padding-top:194px;padding-bottom:191px;}
-.two-section h1{font-size:24px;color:#4a4a4a;font-family:'Conv_Larsseit-Light',sans-serif;line-height:40px}
-.two-section--wrapper{background-color:#f0f0f0}
+.two-section{
+	text-align:left;
+	width:75%;
+	margin-left: 58px;
+	-webkit-box-pack:justify;
+	-moz-box-pack:justify;
+	-o-box-pack:justify;
+	-ms-flex-pack:justify;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+	padding-top:194px;
+	padding-bottom:191px;
+}
+.two-section h1{
+	font-size:24px;
+	color:#4a4a4a;
+	font-family:'Conv_Larsseit-Light',sans-serif;
+	line-height:40px
+}
+.two-section--wrapper{
+	background-color:#f0f0f0
+}
 .third-section{width:23%;padding-left:9px}
 .box{font-size:0;cursor:pointer;position:relative;overflow:hidden;width:100%;}
 .box video{position:absolute;left:0;-webkit-transition:all 500ms ease-out;-moz-transition:all 500ms ease-out;-o-transition:all 500ms ease-out;-ms-transition:all 500ms ease-out;transition:all 500ms ease-out}
@@ -767,8 +786,14 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .touchscreen .underline:after{-webkit-transition:none;-moz-transition:none;-o-transition:none;-ms-transition:none;transition:none}
 .pace{z-index:4 !important}
 @media all and (max-width: 1199px){.logo-svg svg{width:312px}
-.two-section{max-width:488px;min-width:488px;padding-top:152px;padding-bottom:150px;}
-.two-section h1{font-size:20px;line-height:34px}
+.two-section{
+	padding-top:152px;
+	padding-bottom:150px;
+}
+.two-section h1{
+	font-size:20px;
+	line-height:34px
+}
 .confidential-box .confidential-project .confidential-content,.confidential-box .public-project .confidential-content{width:50%;padding-left:77px;padding-top:265px;padding-bottom:77px;}
 .confidential-box .confidential-project .confidential-content p,.confidential-box .public-project .confidential-content p{margin-bottom:19px}
 .confidential-box .confidential-project .title1{width:50%}
@@ -779,7 +804,10 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .hompage-about{padding:75px}
 }@media all and (max-width: 991px){.homepage-video-logo .video{display:none}
 .logo-svg svg{width:283px}
-.two-section{padding-top:114px;padding-bottom:112px}
+.two-section{
+	padding-top:114px;
+	padding-bottom:112px
+}
 .title1{padding-left:66px;padding-bottom:83px;}
 .title1 .confidential-project-close-button{top:79px}
 .confidential-box .video{display:none}
@@ -799,9 +827,18 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .logo-svg svg{width:158px}
 .video-img{-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center;height:100%;width:100%}
 .about .video{display:none}
-.two-section{width:100%;max-width:464px;min-width:272px;}
-.two-section h1{font-size:16px;line-height:26px}
-.two-section{padding-top:152px;padding-bottom:152px}
+.two-section{
+	width: 100%;
+	margin: 0px;
+}
+.two-section h1{
+	font-size:16px;
+	line-height:26px
+}
+.two-section{
+	padding-top:152px;
+	padding-bottom:152px
+}
 .title1 h1{font-size:24px}
 .confidential-box .confidential-project .confidential-content,.confidential-box .public-project .confidential-content{width:100%;padding-right:26px;padding-bottom:30px;padding-left:26px;}
 .confidential-box .confidential-project .confidential-content p,.confidential-box .public-project .confidential-content p{margin-bottom:0}
