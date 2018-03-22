@@ -723,7 +723,13 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 	display:none;
 	height: 65vh;
 }
-.hompage-about{padding:94px;}
+.hompage-about{
+
+	padding:28px 24px;
+}
+.hompage-about .video {
+	height: 65vh;
+}
 .hompage-about .content-maxwidth{max-width:100%}
 .hompage-about-overlay{position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-o-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);z-index:999999999;}
 .hompage-about-overlay a{text-align:center;font-family:'Conv_Typewriter_Regular_PRO',sans-serif;font-size:50px;color:#fff;cursor:pointer;}
@@ -811,7 +817,6 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1{padding-left:77px;padding-bottom:114px;}
 .title1 .confidential-project,.title1 .public-project{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;top:28%;}
 .title1 .confidential-project .confidential-content,.title1 .public-project .confidential-content{-webkit-align-self:flex-end;align-self:flex-end;-ms-flex-item-align:end;padding-left:77px;padding-bottom:76px}
-.hompage-about{padding:75px}
 }@media all and (max-width: 991px){.homepage-video-logo .video{display:none}
 .logo-svg svg{width:283px}
 .two-section{
@@ -831,7 +836,6 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .box .title1{opacity:1;-ms-filter:none;filter:none}
 .video-img{display:block !important}
 .see-more{margin-top:86px}
-.hompage-about{padding:50px;}
 .hompage-about .video{display:none}
 }@media all and (max-width: 767px){.homepage-video-logo{height:100vh}
 .videoOv{display:none}
@@ -864,7 +868,6 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1 .confidential-project-close-button{top:26px;right:36px}
 .third-section{width:29%;padding-left:26px;padding-top:158px}
 .see-moree{margin-top:70px}
-.hompage-about{padding:26px;}
 .hompage-about .content-maxwidth{width:100%}
 }@media all and (max-width: 563px){.third-section{width:41%}
 .footer-wrapper{-webkit-box-lines:multiple;-moz-box-lines:multiple;-o-box-lines:multiple;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
