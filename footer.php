@@ -6,13 +6,12 @@
 				<div class="footer-content">
 					<ul>
 						<li><a href="mailto:hello@sixthirty.pm">hello@sixthirty.pm</a></li>
-						<li><a href="tel:+44 20 8088 8630">+44 20 8088 8630</a></li>
+						<li><a href="tel:+44 20 8088 8630">+44 (0)208 888 630</a></li>
 						<br>
 						<li>
 							<p>
-								<span>Unit T, Reliance Wharf, </span>
-								<span>2-10 Hertford Road, </span>
-								<span>London, N1 5ET.</span>
+								<span>WeWork, 41 Corsham Street</span>
+								<span>London, N1 6DR</span>
 							</p>
 						</li>
 					</ul>
