@@ -151,7 +151,18 @@ html.noscroll .clone-wrapper .projects-overlay-image,body.noscroll .clone-wrappe
 .content-col .about-content-details p{margin-top:0;color:#4a4a4a;font-size:18px;line-height:29px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif}
 .contacts-info ul li{font-size:16px}
 .container-video{font-size:0;overflow:hidden;}
-.container-video.container-video--overlay{background-color:rgba(114,114,114,0.5);}
+.container-video.container-video--overlay{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	opacity: 1;
+	overflow: hidden;
+	background-color:rgba(114,114,114,0.5);
+	clip: rect(auto, auto, auto, auto);
+	z-index: -1;
+}
+.home-content {margin: 100vh 0px 0px; background-color:rgb(255,255,255); z-index: 2;}
 .container-video.container-video--overlay .video{mix-blend-mode:multiply}
 .container{position:relative}
 .container video{position:relative;z-index:0}
