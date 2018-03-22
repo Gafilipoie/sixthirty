@@ -22,6 +22,7 @@
 						<li><a href="/press">Press</a></li>
 						<br><br><br>
 						<li><a href="https://twitter.com/sixthirtystudio" target="_blank">Twitter</a></li>
+						<li><a href="https://www.instagram.com/sixthirtystudio" target="_blank">Instagram</a></li>
 						<li><a href="https://www.facebook.com/sixthirtystudio" target="_blank">Facebook</a></li>
 					</ul>
 				</div>
