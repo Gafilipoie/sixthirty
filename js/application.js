@@ -977,6 +977,25 @@ window.require.define({"modules/header-controller": function(exports, require, m
           return window.location.href = $(this).find('.single-project--confidential').attr('data-link');
         }
       });
+
+      $('.project-filter').on('click', function(ev) {
+        var thisCategory = $(this).text();
+        $('.project-filter').removeClass('active');
+        $(this).addClass('active');
+
+        if (thisCategory == 'All') {
+          $(".single-project").fadeIn();
+        } else {
+          $(".single-project").hide().each(function(index) {
+            $(this).find(".single-project--test").each(function(index) {
+              if ($(this).text() == thisCategory) {
+                $(this).closest(".single-project").fadeIn();
+              }
+            });
+          });
+        }
+      });
+
       this._bindEvents();
     }
 
@@ -1428,7 +1447,6 @@ window.require.define({"modules/header-controller": function(exports, require, m
     };
 
     window.onpopstate = function(ev) {
-      console.log(window.disablePopStateListener);
       if (window.disablePopStateListener) {
         window.disablePopStateListener = false;
         return;

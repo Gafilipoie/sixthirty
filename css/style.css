@@ -536,7 +536,7 @@ ul{margin:0;padding:0}
 	right:0;
 	bottom:0;
 	width:60%;
-	padding:96px 0px 96px 0px;
+	padding:39px 0px 96px 0px;
 	background-color:#fff;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -568,6 +568,34 @@ ul{margin:0;padding:0}
 	cursor:pointer;
 	z-index:200;
 }
+.projects-overlay-filter {
+	margin-bottom: 42px;
+	color: #303030;
+	font-size: 14px;
+	line-height: 30px;
+	font-family:'Conv_Type Dynamic - Larsseit',sans-serif;
+	z-index:200;
+}
+.projects-overlay-filter ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.projects-overlay-filter ul li {
+	display: inline-block;
+	margin-right: 35px;
+}
+.projects-overlay-filter ul li:last-child {
+	display: inline-block;
+	margin-right: 0px;
+}
+.projects-overlay-filter ul li .project-filter {
+	text-decoration: none;
+}
+.projects-overlay-filter ul li .project-filter.active {
+	height: 3px;
+	border-bottom: 1px solid #979797;
+}
 @media all and (max-width: 767px){.projects-overlay-close-button{top:7px;right:5px;width:24px;height:34px}
 }.projects-overlay-close-button .bar,.projects-overlay-close-button .bar:after,.projects-overlay-close-button .bar:before{
 	width:20px;
@@ -597,7 +625,9 @@ ul{margin:0;padding:0}
 .mobile-menu-overlay ul li a{color:#3c3c3c !important;font-size:20px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif;cursor:pointer;}
 .mobile-menu-overlay ul li a:-webkit-any-link{text-decoration:none}
 .projects-list .projects-page{background-color:#fff;}
-.projects-list .projects-page .single-project{position:relative;}
+.projects-list .projects-page .single-project{
+	position:relative;
+}
 .projects-list .projects-page .single-project p{margin:0;cursor:pointer}
 .projects-list .projects-page .single-project .single-project--info .single-project-tags {
 	display: none;

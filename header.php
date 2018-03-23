@@ -24,6 +24,11 @@
 		<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 	</head>
 
+	<?php
+		$args = array( 'post_type' => 'projects', 'posts_per_page' => -1);
+		$loop = new WP_Query( $args );
+	?>
+
 	<body>
 		<div class="projects-overlay-image">
 			<div class="clone-wrapper">
@@ -32,6 +37,14 @@
 			</div>
 		</div>
 		<div class="projects-overlay-wrapper">
+
+			<div class="projects-overlay-filter">
+				<ul>
+					<li><a href="#" class="project-filter all active">All</a></li>
+					<?php $categories = get_categories(); foreach ($categories as &$cat) { echo '<li><a href="#" class="project-filter">'.$cat->name.'</a></li>'; } ?>
+				</ul>
+			</div>
+
 			<div class="projects-overlay-close-button">
 				<div class="bar"></div>
 			</div>
