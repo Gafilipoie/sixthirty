@@ -19,7 +19,7 @@
 
 				<!-- Public  -->
 				<?php if (get_field('type') == 'Public') {  ?>
-				<p> <?php $categories = get_the_category($id); foreach ($categories as &$value) { echo '<span class="single-project--test">'.$value->name.'</span>'; } ?></p>
+				<p class="single-project-tags"> <?php $categories = get_the_category($id); foreach ($categories as &$value) { echo '<span class="single-project--test">'.$value->name.'</span>'; } ?></p>
 				<?php } ?>
 
 				<div class="single-project--confidential" data-password="<?php the_field('password'); ?>" data-link="<?php the_permalink(); ?>">

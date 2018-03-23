@@ -28,6 +28,7 @@
 		<div class="projects-overlay-image">
 			<div class="clone-wrapper">
 				<img class="project-image-clone" src="" alt=""/>
+				<div class="project-tags-clone"></div>
 			</div>
 		</div>
 		<div class="projects-overlay-wrapper">

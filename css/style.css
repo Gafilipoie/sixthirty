@@ -498,16 +498,45 @@ ul{margin:0;padding:0}
 	-ms-transform:translateY(-50%);
 	transform:translateY(-50%);
 }
-.projects-overlay-image .clone-wrapper .project-image-clone{display:block;width:100%;height:auto;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-webkit-transition:opacity 250ms ease;-moz-transition:opacity 250ms ease;-o-transition:opacity 250ms ease;-ms-transition:opacity 250ms ease;transition:opacity 250ms ease;}
-@media all and (max-width: 767px){.projects-overlay-image .clone-wrapper .project-image-clone{display:none}
-}.projects-overlay-image .clone-wrapper .project-image-clone.active{opacity:1;-ms-filter:none;filter:none}
+.projects-overlay-image .clone-wrapper .project-image-clone{
+	display:block;
+	width:100%;
+	height:auto;
+	opacity:0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:alpha(opacity=0);
+	-webkit-transition:opacity 250ms ease;
+	-moz-transition:opacity 250ms ease;
+	-o-transition:opacity 250ms ease;
+	-ms-transition:opacity 250ms ease;
+	transition:opacity 250ms ease;
+}
+.projects-overlay-image .clone-wrapper .project-tags-clone {
+	margin-top: 9px;
+	color: #ffffff;
+	font-size: 12px;
+	line-height:30px;
+	text-align: center;
+	font-family:'Conv_Type Dynamic - Larsseit',sans-serif;
+	opacity:0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:alpha(opacity=0);
+	-webkit-transition:opacity 250ms ease;
+	-moz-transition:opacity 250ms ease;
+	-o-transition:opacity 250ms ease;
+	-ms-transition:opacity 250ms ease;
+	transition:opacity 250ms ease;
+}
+@media all and (max-width: 767px){.projects-overlay-image .clone-wrapper .project-image-clone{display:none}}
+.projects-overlay-image .clone-wrapper .project-image-clone.active{opacity:1;-ms-filter:none;filter:none}
+.projects-overlay-image .clone-wrapper .project-tags-clone.active{opacity:1;-ms-filter:none;filter:none}
 .projects-overlay-wrapper{
 	position:fixed;
 	top:0;
 	right:0;
 	bottom:0;
-	width:65%;
-	padding:96px 9% 96px 9%;
+	width:60%;
+	padding:96px 0px 96px 0px;
 	background-color:#fff;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -543,8 +572,11 @@ ul{margin:0;padding:0}
 .mobile-menu-overlay ul li a{color:#3c3c3c !important;font-size:20px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif;cursor:pointer;}
 .mobile-menu-overlay ul li a:-webkit-any-link{text-decoration:none}
 .projects-list .projects-page{background-color:#fff;}
-.projects-list .projects-page .single-project{position:relative;margin-bottom:22px;}
+.projects-list .projects-page .single-project{position:relative;}
 .projects-list .projects-page .single-project p{margin:0;cursor:pointer}
+.projects-list .projects-page .single-project .single-project--info .single-project-tags {
+	display: none;
+}
 .projects-list .projects-page .single-project.active .single-project--info .single-project--name{color:#3f005c}
 .projects-list .projects-page .single-project.opened .single-project--info .single-project--name{color:#3f005c}
 .projects-list .projects-page .single-project.opened .single-project--info .single-project--confidential{max-height:9999999px;}
@@ -560,6 +592,10 @@ ul{margin:0;padding:0}
 .projects-list .projects-page .single-project .single-project--info .single-project--test{margin-bottom:10px;color:#9c9c9c;font-size:12px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif;letter-spacing:0;line-height:22px;}
 .projects-list .projects-page .single-project .single-project--info .single-project--test::after{content:" / "}
 .projects-list .projects-page .single-project .single-project--info .single-project--test:last-child:after{content:''}
+
+.projects-overlay-image .clone-wrapper .project-tags-clone .single-project--test::after{content:" / "}
+.projects-overlay-image .clone-wrapper .project-tags-clone .single-project--test:last-child:after{content:''}
+
 .projects-list .projects-page .single-project .single-project--info .single-project--confidential{max-height:0;overflow:hidden;}
 .projects-list .projects-page .single-project .single-project--info .single-project--confidential .password-input{border:none;color:#474747;font-size:14px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif;letter-spacing:0;line-height:30px;text-decoration:underline;}
 .projects-list .projects-page .single-project .single-project--info .single-project--confidential .password-input::-webkit-input-placeholder{font-family:'Conv_Type Dynamic - Larsseit',sans-serif;text-decoration:underline}

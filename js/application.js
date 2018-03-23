@@ -956,13 +956,17 @@ window.require.define({"modules/header-controller": function(exports, require, m
       });
       $('.single-project--info').on('mouseenter', function(ev) {
         var imageCloneUrl;
+		var tagsCloneText;
         imageCloneUrl = $(this).siblings('.single-project--tumbnail').css('background-image').slice(5, -2);
+		tagsCloneText = $(this).children('.single-project-tags').html();
         $('.project-image-clone').attr("src", imageCloneUrl).addClass('active');
+		$('.project-tags-clone').empty().append(tagsCloneText).addClass('active');
         $('.single-project').removeClass('active opened');
         return $(this).parent().addClass('active');
       });
       $('.single-project--info').on('mouseleave', function(ev) {
         $('.project-image-clone').removeClass('active');
+		$('.project-tags-clone').removeClass('active');
         return $('.single-project').removeClass('active');
       });
       $('.single-project--info').on('click', function(ev) {
@@ -1006,6 +1010,8 @@ window.require.define({"modules/header-controller": function(exports, require, m
       if ($('.return-home-logo').css('display') === 'none') {
         $('.return-home-logo').toggle();
       }
+      $('.projects-overlay-wrapper').css('padding-right', ($('.projects-overlay-wrapper').innerWidth() * 10) / 100);
+      $('.projects-overlay-wrapper').css('padding-left', ($('.projects-overlay-wrapper').innerWidth() * 10) / 100);
       if ($window.width() >= 768) {
         $('.projects-overlay-wrapper, .projects-overlay-image').removeClass('active');
         mobileNavBar.removeClass('active');
@@ -1027,6 +1033,8 @@ window.require.define({"modules/header-controller": function(exports, require, m
     };
 
     HeaderController.prototype._onDocReady = function() {
+      $('.projects-overlay-wrapper').css('padding-right', ($('.projects-overlay-wrapper').innerWidth() * 10) / 100);
+      $('.projects-overlay-wrapper').css('padding-left', ($('.projects-overlay-wrapper').innerWidth() * 10) / 100);
       cacheProjectsPage();
       navLink.each(function(index, item) {
         var currentItem;
