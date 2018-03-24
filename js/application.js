@@ -979,6 +979,7 @@ window.require.define({"modules/header-controller": function(exports, require, m
       });
 
       $('.project-filter').on('click', function(ev) {
+        ev.preventDefault();
         var thisCategory = $(this).text();
         $('.project-filter').removeClass('active');
         $(this).addClass('active');
