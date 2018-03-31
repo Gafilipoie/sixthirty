@@ -53,7 +53,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
     <div id="myList">
       <?php if ($loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); $id = get_the_ID();
           if (get_field('type') == 'Confidential') {  ?>
-          <div class="text-anim list-porject container container-video confidential-box conf-box"
+          <div class="list-porject container container-video confidential-box conf-box"
               style="<?php if (!$isMobile) { ?>
                   background-image:url(<?php the_field('banner_image_url'); ?>);
                 <?php } else { ?>
@@ -104,7 +104,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
             </div>
           </div>
         <?php } else { ?>
-          <div class="text-anim list-porject container container-video confidential-box public-box" data-link="<?php the_permalink(); ?>"
+          <div class="list-porject container container-video confidential-box public-box" data-link="<?php the_permalink(); ?>"
               style="<?php if (!$isMobile) { ?>
                       background-image:url(<?php the_field('banner_image_url'); ?>);
                     <?php } else { ?>
