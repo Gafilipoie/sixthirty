@@ -7,13 +7,6 @@
 					<ul>
 						<li><a href="mailto:hello@sixthirty.pm">hello@sixthirty.pm</a></li>
 						<li><a href="tel:+44 20 8088 8630">+44 (0)208 888 630</a></li>
-						<br>
-						<li>
-							<p>
-								<span>WeWork, 41 Corsham Street</span>
-								<span>London, N1 6DR</span>
-							</p>
-						</li>
 					</ul>
 				</div>
 				<div class="footer-social">
