@@ -664,7 +664,10 @@ ul{margin:0;padding:0}
 .projects-list .projects-page .single-project .single-project--info .single-project--confidential .mail-request a:hover{color:#4628be}
 .projects-list .projects-page .single-project .single-project--info .single-project--confidential .mail-request a:-webkit-any-link{text-decoration:none}
 .hidden-menu-item{display:none !important}
-.header-wrapper .return-home-logo{display:block;padding-top:19px;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
+.header-wrapper .return-home-logo{
+	display:block;
+	padding-top:19px;
+}
 .header-wrapper.transparent .return-home-logo{display:block}
 .header-wrapper.transparent{
 	background:-webkit--webkit-linear-gradient(0deg, rgba(255,255,255,0) 0%, #979797 100%);
@@ -782,9 +785,6 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .showreel a{font-family:'Conv_Type Dynamic - Larsseit',sans-serif;font-size:18px;color:#fff;cursor:pointer}
 #fade-wrapper{display:none;position:absolute;top:0;left:0;right:0;buttom:0;z-index:9999999999999}
 .videoOv{top:0;left:0;bottom:0;right:0;width:100%;height:100%}
-.logo-svg{width:100%;position:absolute;top:50%;left:50%;z-index:1;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transition:-webkit-transform 500ms ease;-moz-transition:-moz-transform 500ms ease;-o-transition:-o-transform 500ms ease;-ms-transition:-ms-transform 500ms ease;transition:transform 500ms ease;}
-.logo-svg:after{-webkit-transition:width 250ms ease;-moz-transition:width 250ms ease;-o-transition:width 250ms ease;-ms-transition:width 250ms ease;transition:width 250ms ease}
-.logo-svg svg{display:block;margin:auto;alignment-baseline:center}
 #Fill-5,#Fill-7{-webkit-animation:blink 1s steps(2,start) infinite;-moz-animation:blink 1s steps(2,start) infinite;-o-animation:blink 1s steps(2,start) infinite;-ms-animation:blink 1s steps(2,start) infinite;animation:blink 1s steps(2,start) infinite}
 .video-img{display:none !important;position:relative;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center;height:100%;width:100%;}
 .video-img svg{position:absolute;top:50%;left:50%;width:100px;height:100px;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
@@ -961,7 +961,6 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1 .confidential-project,.title1 .public-project{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;top:28%;}
 .title1 .confidential-project .confidential-content,.title1 .public-project .confidential-content{-webkit-align-self:flex-end;align-self:flex-end;-ms-flex-item-align:end;padding-left:77px;padding-bottom:76px}
 }@media all and (max-width: 991px){.homepage-video-logo .video{display:none}
-.logo-svg svg{width:283px}
 .two-section{
 	padding-top:114px;
 	padding-bottom:112px
@@ -983,7 +982,6 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 }@media all and (max-width: 767px){.homepage-video-logo{height:100vh}
 .videoOv{display:none}
 .showreel{display:none}
-.logo-svg svg{width:158px}
 .video-img{-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center;height:100%;width:100%}
 .about .video{display:none}
 .two-section{

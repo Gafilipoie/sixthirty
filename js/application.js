@@ -842,15 +842,6 @@ window.require.define({"modules/header-controller": function(exports, require, m
       this._onKeyDown = __bind(this._onKeyDown, this);
       this._onResize = __bind(this._onResize, this);
       var checkPassword;
-      if (window.location.pathname === '/') {
-        $('.return-home-logo').css({
-          'opacity': 0
-        });
-      } else {
-        $('.return-home-logo').css({
-          'opacity': 1
-        });
-      }
       if (is_touch) {
         $html.addClass('touchscreen');
       }
@@ -859,7 +850,6 @@ window.require.define({"modules/header-controller": function(exports, require, m
         var offsetTop,
           _this = this;
         if (window.location.pathname === '/about/') {
-          $('.return-home-logo').fadeIn();
           offsetTop = $('#contact').offset().top;
           if (mobileMenuOpened) {
             mobileMenuOpened = !mobileMenuOpened;
@@ -1026,9 +1016,6 @@ window.require.define({"modules/header-controller": function(exports, require, m
     HeaderController.prototype._onResize = function(ev) {
       if (ev.isTrigger) {
         return;
-      }
-      if ($('.return-home-logo').css('display') === 'none') {
-        $('.return-home-logo').toggle();
       }
       $('.projects-overlay-wrapper').css('padding-right', ($('.projects-overlay-wrapper').innerWidth() * 10) / 100);
       $('.projects-overlay-wrapper').css('padding-left', ($('.projects-overlay-wrapper').innerWidth() * 10) / 100);
@@ -1727,7 +1714,7 @@ window.require.define({"modules/homepage-skin": function(exports, require, modul
       this._useHomepageSkin = __bind(this._useHomepageSkin, this);
       this._onResize = __bind(this._onResize, this);
       this._onReady = __bind(this._onReady, this);
-      var checkPassword, divs, logo, videoLogo;
+      var checkPassword, divs, videoLogo;
       videoLogo = $('.video-logo');
       this._onResize();
       $window.on('slideNav', this._navSlideIn);
@@ -1765,7 +1752,6 @@ window.require.define({"modules/homepage-skin": function(exports, require, modul
         return $(this).parent().find('.project-input').show();
       });
       divs = $('.showreel');
-      logo = $('.return-home-logo');
       $(window).on('scroll', function() {
         var offset, st;
         st = $(this).scrollTop();
@@ -1773,14 +1759,6 @@ window.require.define({"modules/homepage-skin": function(exports, require, modul
         divs.css({
           'opacity': offset
         });
-        logo.css({
-          'opacity': 0
-        });
-        if (offset <= 0) {
-          logo.css({
-            'opacity': 0 + ((st / 310) - 1)
-          });
-        }
       });
     }
 
