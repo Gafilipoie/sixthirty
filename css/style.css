@@ -1094,7 +1094,7 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1{padding-left:77px;padding-bottom:114px;}
 .title1 .confidential-project,.title1 .public-project{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;top:28%;}
 .title1 .confidential-project .confidential-content,.title1 .public-project .confidential-content{-webkit-align-self:flex-end;align-self:flex-end;-ms-flex-item-align:end;padding-left:77px;padding-bottom:76px}
-}@media all and (max-width: 991px){.homepage-video-logo .video{display:none}
+}@media all and (max-width: 991px){
 .two-section{
 	padding-top:114px;
 	padding-bottom:112px
@@ -1110,14 +1110,15 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1 .confidential-project-close-button{top:20px;right:45px}
 .box .overbox{opacity:1;-ms-filter:none;filter:none}
 .box .title1{opacity:1;-ms-filter:none;filter:none}
-.video-img{display:block !important}
 .see-more{margin-top:86px}
 .hompage-about .video{display:none}
 }@media all and (max-width: 767px){.homepage-video-logo{height:100vh}
 .videoOv{display:none}
 .showreel{display:none}
 .video-img{-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center;height:100%;width:100%}
-.about .video{display:none}
+.hompage-about .video{
+	display:none
+}
 .two-section{
 	width: 100%;
 	margin: 0px;
