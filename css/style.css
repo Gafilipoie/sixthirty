@@ -931,8 +931,24 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .confidential-hide-element .single-project--confidential .mail-request a:hover{color:#4628be}
 .confidential-hide-element .single-project--confidential .mail-request p{font-size:18px}
 .confidential-show-element{opacity:1;-ms-filter:none;filter:none;pointer-events:auto;-webkit-transition:opacity 500ms ease;-moz-transition:opacity 500ms ease;-o-transition:opacity 500ms ease;-ms-transition:opacity 500ms ease;transition:opacity 500ms ease}
-.see-more{text-align:center;font-family:'Conv_Type Dynamic - Larsseit Bold',sans-serif;margin-top:90px;}
-.see-more a{font-size:20px;position:relative;cursor:pointer;-webkit-transition:color 250ms ease;-moz-transition:color 250ms ease;-o-transition:color 250ms ease;-ms-transition:color 250ms ease;transition:color 250ms ease;}
+.see-more{
+	margin-left:66px;
+	text-align:left;
+	font-family:'Conv_Type Dynamic - Larsseit Bold',sans-serif;
+	font-weight: 300;
+	margin-top:90px;
+}
+.see-more a{
+	font-size:36px;
+	color:#5D5D5D;
+	position:relative;
+	cursor:pointer;
+	-webkit-transition:color 250ms ease;
+	-moz-transition:color 250ms ease;
+	-o-transition:color 250ms ease;
+	-ms-transition:color 250ms ease;
+	transition:color 250ms ease;
+}
 .see-more a:after{background:#350b76;content:"";position:absolute;bottom:0;left:0;width:0;height:2px;-webkit-transition:width 250ms ease;-moz-transition:width 250ms ease;-o-transition:width 250ms ease;-ms-transition:width 250ms ease;transition:width 250ms ease}
 .see-more a:hover{color:#350b76;}
 .see-more a:hover:after{width:100%}
@@ -1078,7 +1094,13 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1{padding-left:26px;padding-bottom:63px}
 .title1 .confidential-project-close-button{top:26px;right:36px}
 .third-section{width:29%;padding-left:26px;padding-top:158px}
-.see-moree{margin-top:70px}
+.see-more{
+	margin-left:48px;
+	margin-top:70px
+}
+.see-more a{
+	font-size: 24px;
+}
 .hompage-about .content-maxwidth{width:100%}
 }@media all and (max-width: 563px){.third-section{width:41%}
 .footer-wrapper{-webkit-box-lines:multiple;-moz-box-lines:multiple;-o-box-lines:multiple;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
