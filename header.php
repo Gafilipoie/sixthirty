@@ -56,7 +56,7 @@
 			<nav class="" >
 				<div class="content-maxwidth header-inner-wrapper">
 					<a class="return-home-logo" href="/">
-						<svg width="93px" height="25px" viewBox="427 298 320 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<svg width="112.5px" height="25px" viewBox="427 298 320 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			        <defs>
 			          <polygon id="path-1" points="0 70.2618778 319.684706 70.2618778 319.684706 0 0 0"></polygon>
 			        </defs>
