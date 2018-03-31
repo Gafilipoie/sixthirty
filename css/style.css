@@ -318,7 +318,20 @@ html.noscroll .clone-wrapper .projects-overlay-image,body.noscroll .clone-wrappe
 .project .header-nav--wrapper ul li.current-menu-item > a:hover{color:#4a4a4a}
 .project .header-nav--wrapper ul li.projects-link > a{color:#4a4a4a;cursor:default}
 .project .header-wrapper .menu-item a{color:#000;position:relative;-webkit-transition:color 250ms ease;-moz-transition:color 250ms ease;-o-transition:color 250ms ease;-ms-transition:color 250ms ease;transition:color 250ms ease;}
-.project .header-wrapper .menu-item a:after{content:"";position:absolute;bottom:-4px;background:#000 !important;left:0;width:0;height:2px;-webkit-transition:width 500ms ease;-moz-transition:width 500ms ease;-o-transition:width 500ms ease;-ms-transition:width 500ms ease;transition:width 500ms ease}
+.project .header-wrapper .menu-item a:after{
+	content:"";
+	position:absolute;
+	bottom:-4px;
+	background:#ffffff !important;
+	left:0;
+	width:0;
+	height:2px;
+	-webkit-transition:width 500ms ease;
+	-moz-transition:width 500ms ease;
+	-o-transition:width 500ms ease;
+	-ms-transition:width 500ms ease;
+	transition:width 500ms ease
+}
 .project .header-wrapper .menu-item a:hover:after{width:100%}
 .project .header-wrapper.current-menu-item > a{color:#000;cursor:pointer;pointer-events:auto;}
 .project .header-wrapper.current-menu-item > a:hover{color:#464646}
@@ -690,10 +703,15 @@ ul{margin:0;padding:0}
 	background:-o-linear-gradient(0deg, rgba(255,255,255,0) 0%, #979797 100%);
 	background:-ms-linear-gradient(0deg, rgba(255,255,255,0) 0%, #979797 100%);
 	background:linear-gradient(0deg, rgba(255,255,255,0) 0%, #979797 100%);}
-.header-wrapper.transparent .header-nav--wrapper ul li > a{color:#242424;}
-.header-wrapper.transparent .header-nav--wrapper ul li > a:after{background:#242424}
-.header-wrapper.transparent .header-nav--wrapper ul li > a:hover{color:#464646;}
-.header-wrapper.transparent .header-nav--wrapper ul li > a:hover:after{background:#464646}
+.header-wrapper.transparent .header-nav--wrapper ul li > a{
+	color:#ffffff;
+}
+.header-wrapper.transparent .header-nav--wrapper ul li > a:after{
+	background:#ffffff;
+}
+.header-wrapper.transparent .header-nav--wrapper ul li > a:hover:after{
+	background:#ffffff
+}
 .header-wrapper.transparent .logo-wrapper .min{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);visibility:hidden}
 .header-wrapper.transparent .logo-wrapper .full{opacity:1;-ms-filter:none;filter:none;visibility:visible}
 .header-wrapper.transparent .logo-wrapper:hover img{opacity:.7;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70)}
