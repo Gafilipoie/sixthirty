@@ -139,7 +139,6 @@ html.noscroll .clone-wrapper .projects-overlay-image,body.noscroll .clone-wrappe
 .timePosted a:-webkit-any-link:hover{color:inherit}
 .tweet{margin:0;color:#292f33;font-size:18px;list-style:none;line-height:29px;font-family:'Conv_Typewriter_Regular_PRO',sans-serif}
 .interact{display:none}
-.video{width:100%}
 .client-logo--wrapper{display:inline-block;vertical-align:top;width:calc((100% - 30px) / 4);margin-left:10px;margin-bottom:10px;text-align:center;background-color:#ced1d0;position:relative;}
 .client-logo--wrapper:nth-child(4n+1){margin-left:0}
 .client-logo--wrapper:before{content:'';padding-bottom:100%;display:block;width:100%}
@@ -1008,7 +1007,9 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 	padding:28px 24px;
 }
 .hompage-about .video {
+	width:100%;
 	height: 65vh;
+	object-fit: fill;
 }
 .hompage-about .content-maxwidth{max-width:100%}
 .hompage-about-overlay{position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-o-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);z-index:999999999;}
