@@ -10,7 +10,7 @@
 		<div class="single-project" data-type="<?php the_field('type'); ?>">
 			<div class="single-project--tumbnail" style="background-image: url(<?php get_field('projects_thumbnail_image') ? the_field('projects_thumbnail_image') : the_field('main_image'); ?>)"></div>
 			<div class="single-project--info">
-				<p class="single-project--name"><?php echo get_the_title(); ?></p>
+				<a class="single-project--name"><?php echo get_the_title(); ?></a>
 
 				<!-- Confidential  -->
 				<?php if (get_field('type') == 'Confidential') {  ?>
