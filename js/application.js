@@ -410,9 +410,6 @@ window.require.define({"modules/about-skin": function(exports, require, module) 
       mainWrapper.addClass('about');
       this._slideInHeader();
       $('.header-wrapper').addClass('transparent').removeClass('nav-up');
-      if ($('body').hasClass('home')) {
-        return $('.header-wrapper').removeClass('transparent');
-      }
     };
 
     AboutSkin.prototype._onResize = function() {
