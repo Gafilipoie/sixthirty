@@ -32,9 +32,9 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
   <div class="homepage-video-logo container container-video container-video--overlay">
     <div class="video-overlay"></div>
     <?php if (!$isMobile) { ?>
-    <video class='video video-logo' loop="loop" muted>
-      <source src="<?php echo $rowShowreel['video']; ?>"/>
-    </video>
+    <div class="embed-container">
+      <iframe src='<?php echo $rowShowreel['video']; ?>' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
     <?php } ?>
     <div class="video-img" style="background-image:url('<?php echo $rowShowreel['image']; ?>');"></div>
     <div class="showreel expendable-border" style="display:none;">
