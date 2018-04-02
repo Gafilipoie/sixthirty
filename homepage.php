@@ -17,29 +17,27 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
 ?>
 
 <!--Showreel video-->
-<div id="fade-wrapper">
+<!-- <div id="fade-wrapper">
   <?php if (!$isMobile) { ?>
   <video class="videoOv" preload="auto" loop="loop">
     <source src="<?php echo $rowShowreel['video']; ?>"/>
   </video>
   <?php } ?>
   <div class="video-img" style="background-image:url('<?php echo $rowShowreel['image']; ?>');"></div>
-</div>
+</div> -->
 
 <div class="container-maxwidth container-maxwidth--home">
 
   <!-- video(with logo)-->
   <div class="homepage-video-logo container container-video container-video--overlay">
     <div class="video-overlay"></div>
-    <?php if (!$isMobile) { ?>
     <div class="embed-container">
       <iframe src='<?php echo $rowShowreel['video']; ?>' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
-    <?php } ?>
-    <div class="video-img" style="background-image:url('<?php echo $rowShowreel['image']; ?>');"></div>
-    <div class="showreel expendable-border" style="display:none;">
+    <!-- <div class="video-img" style="background-image:url('<?php echo $rowShowreel['image']; ?>');"></div> -->
+    <!-- <div class="showreel expendable-border" style="display:none;">
       <a>View showreel</a>
-    </div>
+    </div> -->
   </div>
 
   <div class="home-content">
