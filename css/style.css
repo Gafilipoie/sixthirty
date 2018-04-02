@@ -995,7 +995,7 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 	text-align:left;
 	font-family:'Conv_Larsseit-Light',sans-serif;
 	font-weight: 300;
-	margin-top:90px;
+	margin-top:68px;
 }
 .see-more a{
 	font-size:36px;
@@ -1129,7 +1129,7 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1 .confidential-project-close-button{top:20px;right:45px}
 .box .overbox{opacity:1;-ms-filter:none;filter:none}
 .box .title1{opacity:1;-ms-filter:none;filter:none}
-.see-more{margin-top:86px}
+.see-more{margin-top:68px}
 .hompage-about .video{display:none}
 }@media all and (max-width: 767px){.homepage-video-logo{height:100vh}
 .videoOv{display:none}
@@ -1164,7 +1164,7 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .third-section{width:29%;padding-left:26px;padding-top:158px}
 .see-more{
 	margin-left:48px;
-	margin-top:70px
+	margin-top:52px
 }
 .see-more a{
 	font-size: 24px;
