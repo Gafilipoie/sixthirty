@@ -1170,7 +1170,15 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 }@media all and (max-width: 767px){.homepage-video-logo{height:100vh}
 .videoOv{display:none}
 .showreel{display:none}
-.video-img{-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center;height:100%;width:100%}
+.video-img{
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	height:100%;
+	width:100%;
+	display: block !important;
+}
 .hompage-about .video{
 	display:none
 }
