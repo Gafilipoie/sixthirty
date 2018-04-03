@@ -695,7 +695,6 @@ ul{margin:0;padding:0}
 .projects-list .projects-page .single-project .single-project--info .single-project--test::after{content:" / "}
 .projects-list .projects-page .single-project .single-project--info .single-project--test:last-child:after{content:''}
 
-.projects-overlay-image .clone-wrapper .project-tags-clone .single-project--test::after{content:" / "}
 .projects-overlay-image .clone-wrapper .project-tags-clone .single-project--test:last-child:after{content:''}
 
 .projects-list .projects-page .single-project .single-project--info .single-project--confidential{max-height:0;overflow:hidden;}
