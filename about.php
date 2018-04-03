@@ -233,7 +233,6 @@ if($detect->isTablet()) : $isMobile = true; endif;
                 <div class="contact-info--padings">
                   <li><?php the_sub_field('address1') ?><br> <?php the_sub_field('address2') ?></li>
                 </div>
-                <li><a href="https://www.google.co.uk/maps/place/Six+Thirty/@51.5369533,-0.0813707,17z/data=!3m1!4b1!4m5!3m4!1s0x48761c96356bb24d:0xae8cb4dc2b1513e1!8m2!3d51.53695!4d-0.079182" target="_blank">View Map</a></li>
               </ul>
             </div>
           <?php endif; ?>
