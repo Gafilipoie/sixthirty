@@ -150,7 +150,8 @@ html.noscroll .clone-wrapper .projects-overlay-image,body.noscroll .clone-wrappe
 .content-col .about-content-details p{margin-top:0;color:#4a4a4a;font-size:18px;line-height:29px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif}
 .contacts-info ul li{font-size:16px}
 .container-video{font-size:0;overflow:hidden;}
-.container-video.container-video--overlay{
+.container-video.container-video--overlay{background-color:rgba(114,114,114,0.5);}
+.container-video.container-video--home-page-overlay {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -615,6 +616,9 @@ ul{margin:0;padding:0}
 	height: 3px;
 	border-bottom: 1px solid #979797;
 }
+@media all and (max-width: 767px){
+	.projects-overlay-filter{display: none;}
+}
 @media all and (max-width: 767px){.projects-overlay-close-button{top:7px;right:5px;width:24px;height:34px}
 }.projects-overlay-close-button .bar,.projects-overlay-close-button .bar:after,.projects-overlay-close-button .bar:before{
 	width:20px;
@@ -1039,6 +1043,11 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .see-more a:after{background:#350b76;content:"";position:absolute;bottom:0;left:0;width:0;height:2px;-webkit-transition:width 250ms ease;-moz-transition:width 250ms ease;-o-transition:width 250ms ease;-ms-transition:width 250ms ease;transition:width 250ms ease}
 .see-more a:hover{color:#350b76;}
 .see-more a:hover:after{width:100%}
+
+.fullwidth-video {
+	width: 100%;
+}
+
 #myList .list-porject{
 	display:none;
 	height: 65vh;

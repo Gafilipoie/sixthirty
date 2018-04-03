@@ -17,27 +17,27 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
 ?>
 
 <!--Showreel video-->
-<!-- <div id="fade-wrapper">
+<div id="fade-wrapper">
   <?php if (!$isMobile) { ?>
   <video class="videoOv" preload="auto" loop="loop">
     <source src="<?php echo $rowShowreel['video']; ?>"/>
   </video>
   <?php } ?>
   <div class="video-img" style="background-image:url('<?php echo $rowShowreel['image']; ?>');"></div>
-</div> -->
+</div>
 
 <div class="container-maxwidth container-maxwidth--home">
 
   <!-- video(with logo)-->
-  <div class="homepage-video-logo container container-video container-video--overlay">
+  <div class="homepage-video-logo container container-video container-video--home-page-overlay">
     <div class="video-overlay"></div>
     <div class="embed-container">
       <iframe src='<?php echo $rowShowreel['video']; ?>' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
-    <!-- <div class="video-img" style="background-image:url('<?php echo $rowShowreel['image']; ?>');"></div> -->
-    <!-- <div class="showreel expendable-border" style="display:none;">
+    <div class="video-img" style="background-image:url('<?php echo $rowShowreel['image']; ?>');"></div>
+    <div class="showreel expendable-border" style="display:none;">
       <a>View showreel</a>
-    </div> -->
+    </div>
   </div>
 
   <div class="home-content">
@@ -59,7 +59,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
                 <?php } ?>">
             <?php if (have_rows('banner_video_url')) : while (have_rows('banner_video_url')) : $rowBannerVideo = the_row(); ?>
             <?php if (!$isMobile) { ?>
-            <video class='video' id="video2" loop="loop" muted>
+            <video class='video fullwidth-video' id="video2" loop="loop" muted>
               <source src="<?php echo $rowBannerVideo['video']; ?>"/>
             </video>
             <?php } ?>
@@ -110,7 +110,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
                     <?php } ?>">
             <?php if (!$isMobile) { ?>
               <?php if (the_field('banner_video_url')) { ?>
-              <video class='video' id="video2" loop="loop" muted>
+              <video class='video fullwidth-video' id="video2" loop="loop" muted>
                 <source src="<?php the_field('banner_video_url'); ?>"/>
               </video>
               <?php } ?>
@@ -170,7 +170,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
       <div class="content-maxwidth">
         <a href="/about">
           <?php if (!$isMobile) { ?>
-          <video class='video' loop="loop" muted>
+          <video class='video fullwidth-video' loop="loop" muted>
             <source src="<?php echo $rowAboutSection['video']; ?>"/>
           </video>
           <?php } ?>

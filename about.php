@@ -25,7 +25,7 @@ if($detect->isTablet()) : $isMobile = true; endif;
       <section class="container container-video text-anim">
         <div class="about-image_video">
           <?php if (!$isMobile) { ?>
-          <video class="video" preload="auto"  loop="loop" muted>
+          <video class="video fullwidth-video" preload="auto"  loop="loop" muted>
             <source src="<?php echo $rowHeaderVideo['video']; ?>" type="video/mp4">
           </video>
           <?php } ?>
@@ -212,7 +212,7 @@ if($detect->isTablet()) : $isMobile = true; endif;
     <section class="text-anim contact-border contact-section container container-video container-video--overlay" id="contact">
       <div class="video-overlay"></div>
       <?php if (!$isMobile) { ?>
-      <video class='video' id="video2" preload="auto"  loop="loop" muted>
+      <video class='video fullwidth-video' id="video2" preload="auto"  loop="loop" muted>
         <source src="<?php echo $rowBottomVideo['video']; ?>" type="video/mp4"/>
       </video>
       <?php } ?>

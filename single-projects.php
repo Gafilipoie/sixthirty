@@ -1375,7 +1375,7 @@
 											<svg version="1.1" id="Play_Showreel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-1045 1046 35 35" style="enable-background:new -1045 1046 35 35;" xml:space="preserve">
 											<style type="text/css">.Play_Showreel_st1{fill:#333333;}.Play_Showreel_st2{fill:#FFFFFF;}</style><g class="Play_Showreel_st0"><circle class="Play_Showreel_st1" cx="-1027.5" cy="1063.5" r="17"/></g><g><path class="Play_Showreel_st2" d="M-1030.8,1070.8c-0.2,0-0.3,0-0.4-0.1c-0.5-0.3-0.5-0.9-0.5-1v-12.4c0-0.6,0.3-0.9,0.5-1 c0.5-0.3,1,0.1,1.1,0.2l8.7,6c0.2,0.1,0.3,0.2,0.4,0.4c0.3,0.5,0.1,1.2-0.5,1.5l-8.7,6C-1030.3,1070.7-1030.6,1070.8-1030.8,1070.8 z"/></g></svg>
 										</div>
-										<video class="video mobile-video" autobuffer>
+										<video class="video fullwidth-video mobile-video" autobuffer>
 											<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 										</video>
 										<!-- Video Controls -->
@@ -1430,7 +1430,7 @@
 										<div class="container container-video">
 											<div class="video-img video-img--primary mobile-playable" style="background-image:url('<?php echo $video1[0]['image']; ?>');"></div>
 											<?php if (!$isMobile) { ?>
-											<video class="video mobile-video" preload="auto" webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video mobile-video" preload="auto" webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php } ?>
@@ -1477,7 +1477,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -1522,7 +1522,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -1571,7 +1571,7 @@
 										<div class="container container-video">
 											<div class="video-img video-img--primary screen lazy" data-original="<?php echo $video1[0]['image']; ?>"></div>
 											<?php if (!$isMobile) { ?>
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php } ?>
@@ -1621,7 +1621,7 @@
 									</div>
 									<div class="col-4 offset-2 project-block project-block--image ">
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -1651,7 +1651,7 @@
 								<section class="video_text">
 									<div class="col-4 project-block project-block--image">
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -1700,7 +1700,7 @@
 									<div class="col-4 project-block project-block--template" <?php if($backgroundColor1){ ?>style="background-color: <?php echo $backgroundColor1; ?>"<?php } ?>>
 										<div class="browser-frame">
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -1732,7 +1732,7 @@
 									<div class="col-4 project-block project-block--template" <?php if($backgroundColor1){ ?>style="background-color: <?php echo $backgroundColor1; ?>"<?php } ?>>
 										<div class="browser-frame">
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -1798,7 +1798,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -1846,7 +1846,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -1911,7 +1911,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -1958,7 +1958,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -2025,7 +2025,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -2074,7 +2074,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -2120,7 +2120,7 @@
 								<section class="two-videos section-animation">
 									<div class="col-4">
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -2144,7 +2144,7 @@
 									</div>
 									<div class="col-4">
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -2175,7 +2175,7 @@
 									<div class="col-4 project-block project-block--template marR" <?php if($backgroundColor1){ ?>style="background-color: <?php echo $backgroundColor1; ?>"<?php } ?>>
 										<div class="browser-frame">
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -2201,7 +2201,7 @@
 									--><div class="col-4 project-block project-block--template" <?php if($backgroundColor1){ ?>style="background-color: <?php echo $backgroundColor1; ?>"<?php } ?>>
 										<div class="browser-frame">
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video2[0]['caption_text']){ ?>
@@ -2252,7 +2252,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -2292,7 +2292,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -2338,7 +2338,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -2380,7 +2380,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -2433,7 +2433,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -2472,7 +2472,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -2517,7 +2517,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -2558,7 +2558,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -2610,7 +2610,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -2650,7 +2650,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -2698,7 +2698,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -2740,7 +2740,7 @@
 												</g>
 											</svg>
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video2[0]['caption_text']){ ?>
@@ -2794,7 +2794,7 @@
 										<div class="two-images--stacked">
 											<div class="stacked-image--wrapper project-block project-block--image">
 												<div class="container container-video">
-													<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+													<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 														<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 													</video>
 													<?php if($video1[0]['caption_text']){ ?>
@@ -2818,7 +2818,7 @@
 											</div>
 											<div class="stacked-image--wrapper project-block project-block--image">
 												<div class="container container-video">
-													<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+													<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 														<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 													</video>
 													<?php if($video2[0]['caption_text']){ ?>
@@ -2852,7 +2852,7 @@
 										<div class=" two-images--stacked">
 											<div class="stacked-image--wrapper project-block project-block--image">
 												<div class="container container-video">
-													<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+													<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 														<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 													</video>
 													<?php if($video1[0]['caption_text']){ ?>
@@ -2876,7 +2876,7 @@
 											</div>
 											<div class="stacked-image--wrapper project-block project-block--image">
 												<div class="container container-video">
-													<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+													<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 														<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 													</video>
 													<?php if($video2[0]['caption_text']){ ?>
@@ -2927,7 +2927,7 @@
 									--><div class="col-4 project-block project-block--template" <?php if($backgroundColor1){ ?>style="background-color: <?php echo $backgroundColor1; ?>"<?php } ?>>
 										<div class="browser-frame">
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -2959,7 +2959,7 @@
 									<div class="col-4 project-block project-block--template" <?php if($backgroundColor1){ ?>style="background-color: <?php echo $backgroundColor1; ?>"<?php } ?>>
 										<div class="browser-frame">
 											<div class="container container-video">
-												<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+												<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 													<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 												</video>
 												<?php if($video1[0]['caption_text']){ ?>
@@ -3008,7 +3008,7 @@
 								<section class="three-videos mosaic-gallery mosaic-right">
 									<div class="col-4 project-block project-block--template marR">
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -3030,7 +3030,7 @@
 											<?php } ?>
 										</div>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -3054,7 +3054,7 @@
 									</div><!--
 									--><div class="col-4 project-block project-block--template">
 											<div class="container container-video">
-											 <video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											 <video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video3[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video3[0]['caption_text']){ ?>
@@ -3084,7 +3084,7 @@
 								<section class="three-videos mosaic-gallery mosaic-left">
 									<div class="col-4 project-block project-block--template marR">
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -3108,7 +3108,7 @@
 									</div><!--
 									--><div class="col-4 project-block project-block--template">
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -3130,7 +3130,7 @@
 											<?php } ?>
 										</div>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video3[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video3[0]['caption_text']){ ?>
@@ -3178,7 +3178,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
@@ -3218,7 +3218,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video2[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video2[0]['caption_text']){ ?>
@@ -3258,7 +3258,7 @@
 											</g>
 										</svg>
 										<div class="container container-video">
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video3[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video3[0]['caption_text']){ ?>
@@ -3710,7 +3710,7 @@
 										<div class="container container-video">
 											<div class="video-img" style="background-image:url('<?php echo $video1[0]['image']; ?>');"></div>
 											<?php if (!$isMobile) { ?>
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php } ?>
@@ -3784,7 +3784,7 @@
 									<div class="col-4 marR project-block project-block--image videoo_text">
 										<div class="container container-video">
 											<div class="video-img" style="background-image:url('<?php echo $video1[0]['image']; ?>');"></div>
-											<video class="video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
+											<video class="video fullwidth-video" preload="auto" loop="loop" muted webkit-playsinline="true" playsinline="true">
 												<source src="<?php echo $video1[0]['video_url']; ?>" type="video/mp4">
 											</video>
 											<?php if($video1[0]['caption_text']){ ?>
