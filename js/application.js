@@ -975,7 +975,7 @@ window.require.define({"modules/header-controller": function(exports, require, m
           $(".single-project").fadeIn();
         } else {
           $(".single-project").hide().each(function(index) {
-            $(this).find(".single-project--test").each(function(index) {
+            $(this).find(".single-project-category--filter").each(function(index) {
               if ($(this).text() == thisCategory) {
                 $(this).closest(".single-project").fadeIn();
               }

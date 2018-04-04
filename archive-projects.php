@@ -32,6 +32,13 @@
 						endwhile; endif;
 					?>
 				</p>
+				<p class="single-project-category">
+					<?php $categories = get_the_category($id);
+					foreach ($categories as &$value) {
+						echo '<span class="single-project-category--filter">'.$value->name.'</span>';
+					}
+					?>
+				</p>
 
 				<div class="single-project--confidential" data-password="<?php the_field('password'); ?>" data-link="<?php the_permalink(); ?>">
 					<input type='password' class="password-input" placeholder='Enter password'>

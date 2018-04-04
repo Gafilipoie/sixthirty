@@ -655,6 +655,9 @@ ul{margin:0;padding:0}
 .projects-list .projects-page .single-project .single-project--info .single-project-tags {
 	display: none;
 }
+.projects-list .projects-page .single-project .single-project--info .single-project-category {
+	display: none;
+}
 .projects-list .projects-page .single-project.active .single-project--info .single-project--name{color:#3f005c}
 .projects-list .projects-page .single-project.opened .single-project--info .single-project--name{color:#3f005c}
 .projects-list .projects-page .single-project.opened .single-project--info .single-project--confidential{max-height:9999999px;}
