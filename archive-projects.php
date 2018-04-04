@@ -17,10 +17,21 @@
 				<p class="single-project--description"><?php the_field('type'); ?></p>
 				<?php } ?>
 
-				<!-- Public  -->
-				<?php if (get_field('type') == 'Public') {  ?>
-				<p class="single-project-tags"> <?php $categories = get_the_category($id); foreach ($categories as &$value) { echo '<span class="single-project--test">'.$value->name.'</span>'; } ?></p>
-				<?php } ?>
+				<p class="single-project-tags">
+					<?php
+						if(have_rows('section_template', $id)) : while (have_rows('section_template', $id)) : the_row();
+							$category = get_sub_field('category');
+							switch ($category) {
+								case 'temp_13':
+									$textModule2 = get_sub_field('text_module_2');
+									$tags = $textModule2[0]['tags'];
+									foreach ($tags as $tag) {
+										echo '<span class="single-project--test">'.$tag['tag'].'</span>';
+									}
+							}
+						endwhile; endif;
+					?>
+				</p>
 
 				<div class="single-project--confidential" data-password="<?php the_field('password'); ?>" data-link="<?php the_permalink(); ?>">
 					<input type='password' class="password-input" placeholder='Enter password'>
