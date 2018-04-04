@@ -1485,7 +1485,17 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title-description .col-9,.title-description .col-10{width:50%}
 .title-description .content-title{color:#4a4a4a;font-size:36px;font-family:'Conv_Larsseit-Light',sans-serif;}
 .title-description .content-title p{margin:14px 0 0}
-.title-description .content-tag{color:#828181;font-size:18px;font-family:'Conv_Typewriter_Regular_PRO',sans-serif}
+.title-description .content-tag{
+	color:#828181;
+	font-size:18px;
+	font-family:'Conv_Typewriter_Regular_PRO',sans-serif
+}
+.title-description .content-tag:after {
+	content:" / ";
+}
+.title-description .content-tag:last-child:after {
+	content:"";
+}
 .title-description .content-details{padding-right:42px;padding-left:10px;color:#4a4a4a;}
 .title-description .content-details p{font-size:18px;font-family:'Conv_Type Dynamic - Larsseit',sans-serif}
 .slick-template{position:relative;}
