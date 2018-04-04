@@ -1322,7 +1322,34 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .project--bottom-section .project-image:hover .projects-image-hover-title{opacity:1;-ms-filter:none;filter:none;-webkit-transform:translateY(0);-moz-transform:translateY(0);-o-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
 .project--bottom-section .project-image:hover .projects-image-hover-info{opacity:1;-ms-filter:none;filter:none;-webkit-transform:translateY(0);-moz-transform:translateY(0);-o-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
 .project .pace .pace-progress{background:#000}
-.project .project--preload-overlay{position:fixed;top:0;right:0;bottom:0;left:0;background-color:#fff;z-index:2;}
+.project .project--preload-overlay{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:#fff;
+	z-index:2;
+}
+.project--preload-overlay-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+}
 .project .project--preload-overlay .st0,.project .project--preload-overlay .st2{-webkit-animation:blink 1s steps(2,start) infinite;-moz-animation:blink 1s steps(2,start) infinite;-o-animation:blink 1s steps(2,start) infinite;-ms-animation:blink 1s steps(2,start) infinite;animation:blink 1s steps(2,start) infinite}
 .project .project--preload-overlay .st0{stroke:rgba(255,255,255,0)}
 .project .project--preload-overlay .overlay--page-title{display:none;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);color:#000;font-family:'Conv_Type Dynamic - Larsseit',sans-serif;font-size:140px;width:100%;margin:0;text-align:center}

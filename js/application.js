@@ -2899,11 +2899,11 @@ window.require.define({"modules/project-skin": function(exports, require, module
     };
 
     ProjectSkin.prototype._onPageLoad = function() {
-      var _this = this;
-      preloadOverlay.fadeOut(700);
-      return setTimeout(function() {
-        return $window.trigger('checkMenu');
-      }, 1400);
+		var _this = this;
+		preloadOverlay.fadeOut(700);
+		return setTimeout(function() {
+        	return $window.trigger('checkMenu');
+		}, 1400);
     };
 
     ProjectSkin.prototype._setRowSpacing = function() {

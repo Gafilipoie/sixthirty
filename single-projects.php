@@ -26,11 +26,13 @@
 
 <div class="project--preload-overlay" id="preload-overlay">
 	<!-- <p class="overlay--page-title" style="display: none;"><?php echo $title; ?></p> -->
-	<svg style="width:10%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 280" style="enable-background:new 0 0 100 280;" xml:space="preserve">
-		<style type="text/css">.st0{clip-path:url(#SVGID_2_);}.st1{clip-path:url(#SVGID_4_);fill:#323232;}.st2{clip-path:url(#SVGID_6_);}.st3{clip-path:url(#SVGID_8_);fill:#323232;}</style>
-		<g><defs><path id="SVGID_1_" d="M50,0C22,0,0,21.4,0,48.6c0,27.3,22,48.6,50,48.6s50-21.4,50-48.6C100,21.8,77.6,0,50,0"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_"  style="overflow:visible;"/></clipPath><g class="st0"><defs><rect id="SVGID_3_" x="-482.6" y="-175.9" width="1063.9" height="609.1"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_"  style="overflow:visible;"/></clipPath><rect x="-5.4" y="-5.4" class="st1" width="110.7" height="108"/></g></g>
-		<g><defs><path id="SVGID_5_" d="M50,181c-28,0-50,21.4-50,48.6c0,27.3,22,48.6,50,48.6s50-21.4,50-48.6C100,202.8,77.6,181,50,181"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_"  style="overflow:visible;"/></clipPath><g class="st2"><defs><rect id="SVGID_7_" x="-482.6" y="5.1" width="1063.9" height="609.1"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_"  style="overflow:visible;"/></clipPath><rect x="-5.4" y="175.6" class="st3" width="110.7" height="108"/></g></g>
-	</svg>
+	<div class="project--preload-overlay-wrapper">
+		<svg style="width:10%;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 280" style="enable-background:new 0 0 100 280;" xml:space="preserve">
+			<style type="text/css">.st0{clip-path:url(#SVGID_2_);}.st1{clip-path:url(#SVGID_4_);fill:#323232;}.st2{clip-path:url(#SVGID_6_);}.st3{clip-path:url(#SVGID_8_);fill:#323232;}</style>
+			<g><defs><path id="SVGID_1_" d="M50,0C22,0,0,21.4,0,48.6c0,27.3,22,48.6,50,48.6s50-21.4,50-48.6C100,21.8,77.6,0,50,0"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_"  style="overflow:visible;"/></clipPath><g class="st0"><defs><rect id="SVGID_3_" x="-482.6" y="-175.9" width="1063.9" height="609.1"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_"  style="overflow:visible;"/></clipPath><rect x="-5.4" y="-5.4" class="st1" width="110.7" height="108"/></g></g>
+			<g><defs><path id="SVGID_5_" d="M50,181c-28,0-50,21.4-50,48.6c0,27.3,22,48.6,50,48.6s50-21.4,50-48.6C100,202.8,77.6,181,50,181"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_"  style="overflow:visible;"/></clipPath><g class="st2"><defs><rect id="SVGID_7_" x="-482.6" y="5.1" width="1063.9" height="609.1"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_"  style="overflow:visible;"/></clipPath><rect x="-5.4" y="175.6" class="st3" width="110.7" height="108"/></g></g>
+		</svg>
+	</div>
 </div>
 
 <?php
