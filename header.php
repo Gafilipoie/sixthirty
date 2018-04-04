@@ -41,7 +41,18 @@
 			<div class="projects-overlay-filter">
 				<ul>
 					<li><a href="#" class="project-filter all active">All</a></li>
-					<?php $categories = get_categories(); foreach ($categories as &$cat) { echo '<li><a href="#" class="project-filter">'.$cat->name.'</a></li>'; } ?>
+					<?php
+						$categories = get_categories();
+
+						usort($categories, function($a, $b) {
+							// var_dump(get_field('order', $a));
+							// var_dump($b);
+							$rdiff = get_field('order', $a) - get_field('order', $b);
+							if ($rdiff) return $rdiff;
+							return get_field('order', $a) - get_field('order', $b);
+						});
+						foreach ($categories as &$cat) { echo '<li><a href="#" class="project-filter">'.$cat->name.'</a></li>'; }
+					?>
 				</ul>
 			</div>
 
