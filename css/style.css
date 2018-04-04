@@ -1169,6 +1169,7 @@ h1,h2{font-weight:normal;margin:0;padding:0}
 .title1 .confidential-project-close-button{top:20px;right:45px}
 .box .overbox{opacity:1;-ms-filter:none;filter:none}
 .box .title1{opacity:1;-ms-filter:none;filter:none}
+.video-img{display:block !important}
 .see-more{margin-top:68px}
 .hompage-about .video{display:none}
 }@media all and (max-width: 767px){.homepage-video-logo{height:100vh}
