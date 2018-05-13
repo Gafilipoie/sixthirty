@@ -55,7 +55,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
               style="<?php if (!$isMobile) { ?>
                   background-image:url(<?php the_field('banner_image_url'); ?>);
                 <?php } else { ?>
-                  background-image:url(<?php the_field('main_image_mobile'); ?>);
+                  background-image:url(<?php the_field('banner_image_mobile_url'); ?>);
                 <?php } ?>">
             <?php if (have_rows('banner_video_url')) : while (have_rows('banner_video_url')) : $rowBannerVideo = the_row(); ?>
             <?php if (!$isMobile) { ?>
@@ -65,7 +65,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
             <?php } ?>
             <div class="video-img" style="background-image:url('<?php echo $rowBannerVideo['image']; ?>');"></div>
             <?php endwhile; endif; ?>
-            <img class="box-image" src="<?php the_field('banner_image_url'); ?>" alt=""/>
+            <img class="box-image" src="<?php if (!$isMobile) { the_field('banner_image_url'); } else { the_field('banner_image_mobile_url'); } ?>" alt=""/>
             <div class="confidential-project">
               <div class="overtext title1">
                 <div class="third-section">
@@ -106,7 +106,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
               style="<?php if (!$isMobile) { ?>
                       background-image:url(<?php the_field('banner_image_url'); ?>);
                     <?php } else { ?>
-                      background-image:url(<?php the_field('main_image_mobile'); ?>);
+                      background-image:url(<?php the_field('banner_image_mobile_url'); ?>);
                     <?php } ?>">
             <?php if (!$isMobile) { ?>
               <?php if (the_field('banner_video_url')) { ?>
@@ -115,7 +115,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
               </video>
               <?php } ?>
             <?php } ?>
-            <img class="box-image" src="<?php the_field('banner_image_url'); ?>" alt=""/>
+            <img class="box-image" src="<?php if (!$isMobile) { the_field('banner_image_url'); } else { the_field('banner_image_mobile_url'); } ?>" alt=""/>
             <div class="public-project">
               <div class="overtext confidential-content">
                 <p><?php echo get_the_title(); ?></p>
@@ -204,17 +204,7 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
         $('.paceCSS').remove();
     }
 </script>
-<!-- Hotjar Tracking Code for http://sixthirty.pm -->
-<script>
-  (function(h,o,t,j,a,r){
-  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-  h._hjSettings={hjid:317614,hjsv:5};
-  a=o.getElementsByTagName('head')[0];
-  r=o.createElement('script');r.async=1;
-  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-  a.appendChild(r);
-  })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+
 <?php include 'bottomsection.php'; ?>
 <?php get_footer(); ?>
 

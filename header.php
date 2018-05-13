@@ -9,19 +9,13 @@
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 		<meta name="pinterest" content="nopin" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/style.css">
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/icons/style.css">
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/nanoscroller.css">
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/slick-theme.css"/>
+
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/common.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/imagesloaded.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/application.vendor.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/application.js"></script>
-		<script type="text/javascript" src="path/to/instafeed.min.js"></script>
-		<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 	</head>
 
 	<?php
