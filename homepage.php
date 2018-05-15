@@ -212,10 +212,5 @@ if (have_rows('about_section')) : while (have_rows('about_section')) : $rowAbout
 <script type="text/javascript">require('modules/homepage-skin')</script>
 <script type="text/javascript">require('modules/homepage-preloader')</script>
 <script type="text/javascript">require('modules/homepage-slider')</script>
-<script type="text/javascript">
-  window.siteURL = "<?php echo site_url(); ?>";
-</script>
-<script type="text/javascript">
-  window.siteUrl = "<?php echo site_url(); ?>";
-  require('modules/about-skin');
-</script>
+<script type="text/javascript">require('modules/about-skin');</script>
+<script type="text/javascript">window.siteUrl = "<?php echo site_url(); ?>";</script>
